@@ -1,0 +1,399 @@
+/* ---------------- PAGE ACCUEIL --------------------- */
+
+div {
+    overflow: hidden;
+    text-align: center;
+	
+}
+body {
+    background-image: url("images/fond.jpg");
+}
+
+
+#page {
+    margin: 0 auto;
+    width: 1200px;
+}
+div#bandeau {
+    background: url("images/fond-banniere.jpg") no-repeat scroll left top transparent;
+    height: 170px;
+    width: 1190px;
+	padding-bottom:30px;
+	opacity:0.8;
+	border:3px solid darkblue;
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+	border-radius:7px;	
+	box-shadow: 6px 6px 0px black;
+}
+
+div#bgbandeau {
+	/* background: url("images/lycee.jpg") no-repeat scroll left top ; */
+	height: 170px;
+    width: 757px;
+	margin:-6px auto;
+	opacity:0.9;
+}
+#img_titre_head {
+	height:170px;
+	background-color:red;
+	position:relative;
+	top:5px;
+	left:223px;
+	width:744px;
+}
+#textbandeau span {
+	font-size:28px;
+	position:relative;
+	top:7px;
+}
+.fond_head {
+	position:absolute;
+}
+
+div#header {
+	background: url("images/fond-banniere1.jpg") no-repeat scroll left top transparent;
+	height:214px;
+	width:1190px;
+	border:3px solid darkblue;
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+	border-radius:7px;	
+	box-shadow: 6px 6px 0px black;
+	opacity:0.8;
+}
+div#textbandeau {
+
+}
+
+div#bande {
+	background: url(images/bande_bleue.png);
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+	border-radius:7px;	
+	opacity:0.9;
+	width:1194px;
+	height:30px;
+	line-height:27px;
+	box-shadow: 6px 0px 0px black;
+}
+
+
+div#form
+{
+	width:1819px;
+	background: transparent url('images/bg.jpg') no-repeat;
+	font-family: arial, verdana, sans-serif;
+	font-weight: bold;
+    width: 578px;
+	float:right;
+	height: 30px;
+}
+div#bande .img
+{
+	float: left;
+    height: 40px;
+    margin: -6px 13px;
+    width: 40px;
+	opacity : 0.8;
+}
+
+div#bande .img:hover
+{
+	opacity : 1;
+}
+
+.boxlogin
+{
+	width: 150px;
+	background: transparent url('images/textbox1.jpg') no-repeat;
+	color : #747862;
+	height:20px;
+	border:0;
+	padding:4px 8px;
+	margin-bottom:0px;
+}
+	
+	.boxmdp
+{
+	width: 150px;
+	background: transparent url('images/textbox1.jpg') no-repeat;
+	color : #747862;
+	height:20px;
+	border:0;
+	padding:4px 8px;
+	margin-bottom:0px;
+
+}
+
+
+div#contenu {
+    background-color: rgba(192, 192, 192, 0.9);
+    float: left;
+    height: 464px;
+    white-space: normal;
+    width: 750px;
+	padding-bottom:30px;
+	color:#FFFFFF;
+	box-shadow: 0px 0px 0px black;
+}
+
+
+div#bande2 {
+    background: url(images/bande3.jpg);
+	-moz-border-radius:7px 7px 0px 0px;	
+	-webkit-border-radius:7px 7px 0px 0px;	
+	border-radius:7px 7px 0px 0px;	
+	opacity:0.9;
+	width:1194px;
+	height:30px;
+	line-height:27px;
+	box-shadow: 6px 0px 0px black;
+	
+}
+
+div#piedpagehaut {
+
+ width: 1200px;
+ height: 10px;
+ background-color: rgba(0,0, 152, 0.9);
+ box-shadow: 6px 0px 0px black;
+ 
+}
+
+div#piedpagebas {
+
+	background-color: rgba(75, 75, 75, 0.9);
+	height: 199px;
+    width: 1200px;
+	box-shadow: 6px 0px 0px black;
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+	border-radius: 0px 0px 7px 7px;
+}
+
+div#bande3 {
+     border-width:1px;
+ border-style:outset ;
+ border-color:black;
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+	border-radius:7px;	
+	opacity:0.9;
+	width:900px;
+	margin: 10 auto ;
+	
+	
+	
+
+}
+
+div#hdp img {           
+     border:0; 
+     top:300px; 
+     right:25px;
+}
+
+
+div#A_propos {
+
+position:relative;
+top:2px;
+left: 149px;
+font-weight:bold;
+text-shadow:1px 0px 0px darkgrey;
+width:300px;
+height: 121px;
+
+
+}
+
+.Qui_sommes_nous
+{
+position:relative;
+top:44px;
+text-shadow: 0px 0 0 darkgrey;
+	color:grey;
+	width:300px;
+	
+}
+
+
+div#autres {
+
+ font-weight: bold;
+    height: 121px;
+    position: relative;
+  right: -450px;
+    text-shadow: 1px 0 0 darkgrey;
+    top: -120px;
+    width: 300px;
+}
+
+.Autre1
+{
+    position: relative;
+    top: 48px;
+	text-shadow: 0px 0 0 darkgrey;
+	color:grey;
+	width:300px;
+}
+
+div#trucs {
+
+	font-weight: bold;
+    height: 121px;
+    position: relative;
+	right: -750px;
+    text-shadow: 1px 0 0 darkgrey;
+    top: -240px;
+    width: 300px;
+
+}
+
+div#trucs .trucs1
+{
+    position: relative;
+    top: 48px;
+	text-shadow: 0px 0 0 darkgrey;
+	color:grey;
+	width:300px;
+}
+
+div#menu {
+    float: left;
+    width: 225px;
+}
+div#menuhaut {
+    background-color: rgba(10, 10, 10, 0.9);
+    height: 180px;
+}
+div#menubas {
+    background-color: rgba(10, 10, 10, 0.9);
+    height: 315px;
+	font-family: arial, verdana, sans-serif;
+	font-weight: bold;
+	color: rgba(230, 230, 230, 0.9)
+}
+
+.searchbox
+{
+	width: 132px;
+	background: white  url('images/textbox2.png') no-repeat;
+	color : #747862;
+	height:20px;
+	border:0;
+	padding:4px 8px;
+	margin-bottom:0px;
+}
+div#menu2{
+    float: right;
+    width: 225px;
+}
+div#menuhaut2 {
+    background-color: rgba(10, 10, 10, 0.9);
+	color: #FFFFFF;
+    height: 122px;
+}
+div#menubas2 {
+   background-color: rgba(10, 10, 10, 0.9);
+    height: 372px;
+}
+
+#navigation
+{
+width:600px;      /*je mets une largeur correspondant à mon image de fond pour le placer à gauche dans l'image */
+height: auto;
+list-style-type: none;
+margin: -29px auto;    /*je mets un margin auto pour le centrer dans la page avec l'image*/
+padding: 47px;
+border: 0;
+
+}
+#navigation > li
+{
+
+width: 120px;
+margin: 5px;
+padding: 0;
+border: 0;
+
+}
+#navigation li a{
+display: block;
+color: #FFFFFF;
+background-color: rgb(0, 0, 0);
+background-color: rgba(0, 0, 0, 0.5);
+margin: 0;
+padding: 4px 8px;
+border:1px solid #FFFFFF;
+text-decoration: none;
+width:120px
+}
+
+#navigation li a:hover {
+background-color: rgb(175, 214, 1);
+background-color: rgba(175, 0, 0, 0.5);
+}
+/*---------------fin du menu de premier niveau-------------*/
+
+
+#navigation .sousMenu {
+width:160px;    /*une largeur supérieur au menu li pour se rendre sur le menuderoulant meme avec un espace*/
+display: none;
+list-style-type: none;
+margin: -45px 0 0 115px;   /*une marge top inferieur pour remonter le menuderoulant et une marge left pour le decaler à droite du menu*/
+padding: 14;
+border: 0;
+position:absolute; /*pour eviter tout decalage*/
+}
+#navigation .sousMenu li
+{
+float: right;
+margin:0 auto;
+padding: 0;
+border: 0;
+width: 150px;
+border-top: 1px solid transparent;
+border-right: 1px solid transparent;
+}
+#navigation .sousMenu li a
+{
+display: block;
+color: #FFF;
+margin: 0;
+border: 0;
+text-decoration: none;
+background-color:rgb(0, 0, 0);
+background-color:rgba(0,0,0,0.5);
+
+}
+#navigation .sousMenu li a:hover
+{
+background-color:rgb(227, 22, 30);
+background-color:rgba(227, 22, 30, 0.5);
+
+}
+
+#navigation .sousMenu li a:visited {
+background-color:rgb(227, 22, 30);
+background-color:rgba(227, 22, 30, 0.5);
+}
+
+
+#navigation li:hover > .sousMenu {
+display: block;
+}
+/*----------fin du menu déroulant----------------*/
+
+
+
+
+
+
+/*--------------- Page formulaire *---------------------*/
+
+body .adherer 
+{
+color:white;
+}

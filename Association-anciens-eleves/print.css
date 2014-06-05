@@ -1,0 +1,725 @@
+
+/*------------------------------------------------------------------------------------------- PAGE ACCUEIL ------------------------------------------------------------ */
+
+
+#page {
+    margin: 0 auto;
+    width: 1200px;
+
+
+     }
+
+
+body {
+  background-color: rgba(0, 0, 0, 1);
+  background-image: url("images/fond2.jpg");
+	
+
+
+}
+
+
+div {
+    overflow: hidden;
+    text-align: center;
+	
+   }
+
+
+div#img_titre_head
+     {
+	height:170px;
+	background-color:red;
+	position:relative;
+	top:5px;
+	left:223px;
+	width:744px;
+	
+	}
+
+ 
+#textbandeau span {
+	font-size:28px;
+	position:relative;
+	top:7px;
+}
+.fond_head {
+	position:absolute;
+}
+
+div#header {
+	background: url("images/fond-banniere1.jpg") no-repeat scroll left top transparent;
+	height:214px;
+	width:1190px;
+	border:3px solid darkred;
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+	border-radius:7px;	
+	box-shadow: 6px 6px 0px black;
+	opacity:0.8;
+}
+div#textbandeau {
+
+}
+
+div#bande {
+	background: url(images/bande2.png);
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+	border-radius:7px;	
+	opacity:0.9;
+	width:1194px;
+	height:30px;
+	line-height:27px;
+	box-shadow: 6px 0px 0px black;
+	margin: 0 0 15px;
+	top:250px;
+	color:white;
+	font-weight: bold;
+	
+}
+
+
+div#bande_connecte
+{
+float: right;
+    
+    width: 330px;
+}
+
+
+div#form
+{
+	width:1819px;
+	background: transparent url('images/bg.jpg') no-repeat;
+	font-family: arial, verdana, sans-serif;
+	font-weight: bold;
+    width: 578px;
+	float:right;
+	height: 30px;
+}
+div#bande .img
+{
+	float: left;
+    height: 40px;
+    margin: -6px 13px;
+    width: 40px;
+	opacity : 0.8;
+}
+
+div#bande .img:hover
+{
+	opacity : 1;
+}
+
+div#bande .img2
+{
+	float: left;
+    height: 22px;
+    margin: 4px 13px;
+    opacity: 0.8;
+    width: 42px;
+}
+div#bande .img2:hover
+{
+	opacity : 1;
+}
+
+div#bande .img3
+{
+	float: left;
+    height: 22px;
+    margin: 4px 13px;
+    opacity: 0.8;
+    width: 42px;
+}
+div#bande .img3:hover
+{
+	opacity : 1;
+}
+
+
+.boxlogin
+{
+	width: 150px;
+	background: transparent url('images/textbox1.jpg') no-repeat;
+	color : #747862;
+	height:20px;
+	border:0;
+	padding:4px 8px;
+	margin-bottom:0px;
+}
+	
+	.boxmdp
+{
+	width: 150px;
+	background: transparent url('images/textbox1.jpg') no-repeat;
+	color : #747862;
+	height:20px;
+	border:0;
+	padding:4px 8px;
+	margin-bottom:0px;
+
+}
+
+
+div#contenu {
+    background-color: rgba(192, 192, 192, 0.9);
+    float: left;
+   
+	min-height:600px;
+	max-height:1500px;
+	
+	
+    white-space: normal;
+    width: 935px;
+	padding-bottom:53px;
+	color:#FFFFFF;
+	box-shadow: 0px 0px 0px black;
+	margin: 0 255px;
+	border-color: white;
+    border-style: solid;
+    border-width: 3px;
+	float:center;
+	overflow:hidden;
+	font-family: Georgia;
+}
+
+
+/*------------------------------------------------------------------------------------------- BANDE CONTENU ------------------------------------------------------------ */
+div#bande_inscription
+{
+	font-family: arial, verdana, sans-serif;
+
+background:linear-gradient( #BECED4, #E4F0F5) repeat scroll 0 0 transparent;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(31, 93, 134, 1)), color-stop(44%,rgba(80, 122, 167, 1)), color-stop(100%,rgba(62, 131, 153, 1)));
+}
+
+
+
+div#clear
+{
+
+clear : both;
+}
+
+
+div#article {
+font-family:AvantGarde Md BT;
+ }
+
+div#bande2 {
+    background: url(images/bande3.jpg);
+	-moz-border-radius:7px 7px 0px 0px;	
+	-webkit-border-radius:7px 7px 0px 0px;	
+	border-radius:7px 7px 0px 0px;	
+	opacity:0.9;
+	width:1200px;
+	height:30px;
+	line-height:27px;
+	box-shadow: 6px 0px 0px black;
+	 
+	
+}
+
+div#piedpagehaut {
+
+ width: 1200px;
+ height: 10px;
+ background-color: rgba(192,0 , 0, 0.9);
+ box-shadow: 6px 0px 0px black;
+  float:left;
+
+	
+ 
+}
+
+div#piedpagebas {
+
+	background-color: rgba(75, 75, 75, 0.9);
+	height: 199px;
+    width: 1200px;
+	box-shadow: 6px 0px 0px black;
+	  float:left;
+	  
+}
+
+
+div#bande4 {
+    
+  width: 1200px;
+ height: 2px;
+ background-color: rgba(255,255 , 255, 0.9);
+ box-shadow: 6px 0px 0px black;
+ border-color:white;
+   float:left;
+ }
+ 
+ 
+
+div#piedpagebas2
+	{
+	background-color: rgba(25,25 , 25, 1);
+	color:white;
+	width:1200px;
+	height:45px;
+	border-radius:0px 0px 7px 7px;	
+	-moz-border-radius:0px 0px 7px 7px;
+	-webkit-border-radius:0px 0px 7px 7px;
+	  float:left;
+	}
+
+div#bande3 {
+    border-width:1px;
+    border-style:outset ;
+    border-color:black;
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+	border-radius:7px;	
+	opacity:0.9;
+	width:900px;
+	margin: 0 auto ;
+  float:left;
+}
+
+div#hdp img {           
+     border:0; 
+     top:300px; 
+     right:25px;
+}
+
+
+div#A_propos {
+
+position:relative;
+top:2px;
+left: 149px;
+font-weight:bold;
+text-shadow:1px 0px 0px darkgrey;
+width:300px;
+height: 121px;
+}
+
+.Qui_sommes_nous
+{
+position:relative;
+top:44px;
+text-shadow: 0px 0 0 darkgrey;
+	color:grey;
+	width:300px;
+	
+}
+
+
+div#autres {
+
+ font-weight: bold;
+    height: 121px;
+    position: relative;
+  right: -450px;
+    text-shadow: 1px 0 0 darkgrey;
+    top: -120px;
+    width: 300px;
+}
+
+.Autre1
+{
+    position: relative;
+    top: 48px;
+	text-shadow: 0px 0 0 darkgrey;
+	color:grey;
+	width:300px;
+}
+
+div#trucs {
+
+	font-weight: bold;
+    height: 121px;
+    position: relative;
+	right: -750px;
+    text-shadow: 1px 0 0 darkgrey;
+    top: -240px;
+    width: 300px;
+
+}
+
+div#trucs .trucs1
+{
+    position: relative;
+    top: 48px;
+	text-shadow: 0px 0 0 darkgrey;
+	color:grey;
+	width:300px;
+}
+
+div#menu {
+    float: left;
+    width: 225px;
+	 height: 617px;
+	 background-color: rgba(10, 10, 10, 0.9);
+	 font-family: arial, verdana, sans-serif;
+	font-weight: bold;
+	color: #FFFFFF;
+	border-color: white;
+    border-style: solid;
+    border-width: 3px;
+	position:absolute;
+}
+
+
+.searchbox
+{
+	width: 132px;
+	background: white  url('images/textbox2.png') no-repeat;
+	color : #747862;
+	height:20px;
+	border:0;
+	padding:4px 8px;
+	margin-bottom:0px;
+}
+div#menu2{
+    float: right;
+    width: 225px;
+	 height: 494px;
+	 background-color: rgba(10, 10, 10, 0.9);
+	color: #FFFFFF;
+	border-color: white;
+    border-style: solid;
+    border-width: 3px;
+	margin: 0 0 15px;
+}
+
+
+
+.wrap{
+	padding:0;
+	list-style:none;
+	width:99%;
+	font-size:18px;
+	background:#cbcdd1;
+	border: 1px solid rgba(0,0,0,0.8);
+}
+
+.wrap li a{
+	display: block;
+	border-bottom: 1px solid rgba(0,0,0, 0.2);
+	border-top: 1px solid rgba(255,255,255, 0.2);
+	background:#15191c;
+	font-family:Verdana, Geneva, sans-serif;
+	text-decoration:none;
+	color:#FFF;
+	text-shadow: 1px 0px 1px rgba(0,0,0,0.2);
+	filter: dropshadow(color=#000, offx=1, offy=0);
+	padding:10px;
+	padding-left:20px;
+}
+
+.wrap li ul li a{
+	font-size:14px;
+	color:#15191c;
+	text-shadow: 1px 0px 1px rgba(255,255,255,0.5);
+	filter: dropshadow(color=#000, offx=1, offy=0);
+}
+
+.wrap li a:hover{
+	background:#2ba2bc;
+}
+
+.wrap ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	height:0;
+	overflow: hidden;
+	transition:1s;
+	-moz-transition:1s;
+	-webkit-transition:1s;
+}
+
+.wrap li:hover ul{
+	height:120px;
+	overflow-y:auto;
+	overflow-x:hidden;
+}
+
+.wrap ul li a{
+	background:#cbcdd1;
+}
+
+.wrap ul li a:hover{
+	background:#c1c1c1;
+}
+
+. ul li a img{
+	margin-right:10px;
+}
+
+
+body .adherer 
+{
+color:white;
+}
+
+
+a span{ 
+position:absolute; 
+margin-top:23px;
+margin-left:-35px;
+color:#09c; 
+background:rgba(0,0,0,.9); 
+padding:15px; 
+border-radius:3px; 
+box-shadow:0 0 2px rgba(0,0,0,.5);
+transform:scale(0) rotate(-12deg);
+transition:all .25s;
+opacity:0;
+}
+a:hover span, a:focus span{ 
+transform:scale(1) rotate(0); 
+opacity:1;
+}
+
+
+
+/*------------------------------------------------------------------------------------------- FORMULAIRE INSCRIPTION ------------------------------------------------------------ */
+
+
+nput, textarea { 
+	padding: 9px;
+	border: solid 1px #E5E5E5;
+	outline: 0;
+	font: normal 13px/100% Verdana, Tahoma, sans-serif;
+	width: 200px;
+	background: #FFFFFF url('bg_form.png') left top repeat-x;
+	background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));
+	background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);
+	box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	}
+
+textarea { 
+	width: 400px;
+	max-width: 400px;
+	height: 150px;
+	line-height: 150%;
+	}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus { 
+	border-color: #C9C9C9; 
+	-webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px;
+	}
+
+.form label { 
+	margin-left: 10px; 
+	color: #FFFFFF; 
+	 font-weight: bold;
+	 width:350px;
+	}
+
+.submit input {
+	width: auto;
+	padding: 9px 15px;
+	background: #617798;
+	border: 0;
+	font-size: 14px;
+	color: #FFFFFF;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	}
+
+	
+	
+	label
+{
+    display: block;
+    width: 150px;
+    float: left;
+}
+/*------------------------------------------------------------------------------------------- FORMULAIRE CONNEXION ------------------------------------------------------------ */
+
+
+
+
+#article25 {
+   
+    font-family: "Trebuchet MS",sans-serif;
+    font-size: 0.9em;
+    height: 350px;
+}
+#article25 form {
+    background: linear-gradient(center top , #464D55, #21272A) repeat scroll 0 0 transparent;
+    border-radius: 5px 5px 5px 5px;
+	-webkit-box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.25);
+    box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.25);
+	
+    height: 235px;
+    margin: 50px auto;
+    padding-top: 1px;
+    width: 435px;
+}
+#article25 form div {
+    background:linear-gradient( #BECED4, #E4F0F5) repeat scroll 0 0 transparent;
+	  background:-webkit-linear-gradient( #BECED4, #E4F0F5) repeat scroll 0 0 transparent;
+	 
+
+    
+    height: 224px;
+    margin: 5px auto;
+    width: 425px;
+}
+#article25 form fieldset {
+    border: medium none;
+    margin: 5px auto;
+    padding: 5px 0 0;
+}
+#article25 form fieldset legend {
+    color: #464D55;
+    font-size: 1.25em;
+    font-weight: bold;
+    height: 50px;
+    padding: 10px 35px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+    white-space: normal;
+    width: 140px;
+}
+#article25 form p {
+    height: 35px;
+    margin: auto auto 14px;
+    width: 350px;
+}
+#article25 form label, #article25 form input {
+    font-family: "Trebuchet MS",sans-serif;
+    font-size: 1.1em;
+}
+#article25 form label {
+	  background: linear-gradient( #FF030D, #B0171F) repeat scroll 0 0 transparent;
+	  background: -webkit-linear-gradient(#FF030D, #B0171F) repeat scroll 0 0 transparent;
+      background: -o-linear-gradient( #FF030D, #B0171F) repeat scroll 0 0 transparent;
+      background: -moz-linear-gradient( #FF030D, #B0171F) repeat scroll 0 0 transparent;
+	   background-color: #FF030D;
+    border-radius: 5px 0 0 5px;
+    box-shadow: 0 1px 1px #000000 inset;
+    color: white;
+    display: block;
+    float: left;
+    font-weight: bold;
+    height: 29px;
+  
+	
+    padding-top: 8px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+    width: 71px;
+}
+#article25 form input[type="text"] {
+    background: none repeat scroll 0 0 #1F2026;
+    border: medium none;
+    border-radius: 0 5px 5px 0;
+    box-shadow: 0 1px 1px #000000 inset;
+    color: #CECECE;
+    display: inline-block;
+    font-weight: bold;
+    height: 100%;
+    padding-left: 10px;
+    text-shadow: 0 1px 0 #000000;
+    width: 265px;
+}
+#article25 form input[type="text"]:focus {
+    box-shadow: 0 0 3px #000000;
+    outline: medium none;
+}
+
+#article25 form input[type="password"] {
+    background: none repeat scroll 0 0 #1F2026;
+    border: medium none;
+    border-radius: 0 5px 5px 0;
+    box-shadow: 0 1px 1px #000000 inset;
+    color: #CECECE;
+    display: inline-block;
+    font-weight: bold;
+    height: 100%;
+    padding-left: 10px;
+    text-shadow: 0 1px 0 #000000;
+    width: 265px;
+}
+#article25 form input[type="password"]:focus {
+    box-shadow: 0 0 3px #000000;
+    outline: medium none;
+}
+
+#article25 form input[type="submit"] {
+    background: -moz-linear-gradient(center top , #1F2026, #15161A) repeat scroll 0 0 transparent;
+	    background: linear-gradient( #1F2026, #15161A) repeat scroll 0 0 transparent;  
+		background: -webkit-linear-gradient( #343640, #15161A) repeat scroll 0 0 transparent;
+		
+
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 1px #000000;
+    color: #CECECE;
+    font-size: 1em;
+    font-weight: bold;
+    height: 30px;
+    margin-left: 295px;
+    text-shadow: 0 -1px 0 #000000;
+    width: 95px;
+}
+#article25 form input[type="submit"]:hover {
+    background: -moz-linear-gradient(#343640, #15161A) repeat scroll 0 0 transparent;
+	   background: -webkit-linear-gradient(center top , #343640, #15161A) repeat scroll 0 0 transparent;
+	    background: linear-gradient(#1F2026, #15161A) repeat scroll 0 0 transparent;
+
+}
+
+
+
+
+
+
+
+/*------------------------------------------------------------------------------------------- PAGE RECAPITULATIVE ------------------------------------------------------------ */
+
+
+
+
+
+div#fiche_recap
+{
+margin:0 auto;
+background-color: white;;
+color:black;
+}
+
+table
+{
+margin:0 auto;
+
+}
+table td
+{
+
+background-color:white;
+color:black;
+}
+
+table td b
+{
+ border-color:black;
+border-width:2px;
+}
+
+
+b
+{
+border-width:1px;
+ border-style:outset ;
+ border-color:black;
+}
+
+
+
+
+
+
+
+
